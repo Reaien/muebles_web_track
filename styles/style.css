@@ -1,0 +1,209 @@
+*{
+    font-family: "Afacad Flux", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+
+.titulo a{
+    text-decoration: none;
+    color: black;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.titulo span{
+    color: rgb(165, 106, 42);
+}
+
+.contenedor-navbar{
+    border-top: 1px solid black;
+}
+
+.contenedor-navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-enlaces{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+
+.banner-imagen{
+    height: 550px;
+    background-image: url(/img/principal.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo-categorias{
+    font-size: 35px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.card-categorias{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-categorias p{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.seccion-nosotros{
+    margin-top: 100px;
+}
+
+.titulo-nosotros{
+    text-align: center;
+}
+
+.contenedor-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.imagen-nosotros{
+    background-image: url(/img/producto2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+
+}
+
+.texto-nosotros{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: rgb(245, 245, 178);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.seccion-productos{
+    padding-top: 100px;
+}
+
+.titulo-productos {
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card-1{
+    display: grid;
+    width: 1200px;
+    height: 400px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.producto-card1{
+    background-image: url(/img/producto1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.card-1:nth-child(1){
+    grid-template-columns: 3fr 1fr;
+}
+
+.producto-descripcion{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(149, 116, 74);
+    color: white;
+    font-size: 22px;
+}
+
+.producto-boton{
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 15px;
+    background-color: green;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.producto-boton:hover{
+    background-color: rgb(8, 97, 8);
+    cursor: pointer;
+}
+
+.card-2{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    margin: 0 30px;
+}
+
+.producto-card2{
+    background-image: url(/img/producto3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.producto-card3{
+    background-image: url(/img/producto4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.seccion-footer{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid rgb(90, 90, 90);
+}
+
+.lista-footer{
+    width: 300px;
+    margin-top: 50px;
+}
+
+.lista-footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.seccion-footer a{
+    display: block;
+}
+
+.firma{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
